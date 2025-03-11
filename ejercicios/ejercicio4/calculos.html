@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Áreas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Autor: Juan Pérez</h1>
+    <h2>Resultados de los cálculos de áreas</h2>
+    <div id="resultados"></div>
+
+    <script>
+     
+        function cuadrado(l) {
+            return l * l;
+        }
+
+       
+        function rectangulo(l1, l2) {
+            return l1 * l2;
+        }
+
+      
+        function triangulo(b, h) {
+            return (b * h) / 2;
+        }
+
+        let ladoCuadrado = 10;
+        let ladoRectangulo1 = 15;
+        let ladoRectangulo2 = 25;
+        let baseTriangulo = 20;
+        let alturaTriangulo = 10;
+        let areaCuadrado = cuadrado(ladoCuadrado);
+        let areaRectangulo = rectangulo(ladoRectangulo1, ladoRectangulo2);
+        let areaTriangulo = triangulo(baseTriangulo, alturaTriangulo);
+
+        document.getElementById("resultados").innerHTML = `
+            <p>Área del cuadrado de lado ${ladoCuadrado} cm = ${areaCuadrado} cm²</p>
+            <p>Área del rectángulo de lados ${ladoRectangulo1} cm y ${ladoRectangulo2} cm = ${areaRectangulo} cm²</p>
+            <p>Área del triángulo de base ${baseTriangulo} cm y altura ${alturaTriangulo} cm = ${areaTriangulo} cm²</p>
+        `;
+    </script>
+</body>
+</html>

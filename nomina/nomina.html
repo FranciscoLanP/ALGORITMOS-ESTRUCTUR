@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomina JavaScript</title>
+</head>
+<body>
+    <h1>Nomina en JavaScript</h1>
+    <script>
+        var nombre = "martin";
+        document.write("nombre del empleado: " + nombre + "<br/>");
+
+        var cargo = "docente";
+        document.write("el cargo del empleado es: " + cargo + "<br/>");
+
+        var sueldo = 1000000;
+        document.write("el sueldo es: " + sueldo + "<br/>");
+
+        var dias_laborados = 15;
+        document.write("los dias laborados son: " + dias_laborados + "<br/>");
+
+        salario = (sueldo / 30) * dias_laborados;
+        document.write("el salario es: " + salario + "<br/>");
+
+        if (sueldo <= 1916000) {
+            st = 109000;
+            document.write("el subsidio de transporte es: " + st + "<br/>");
+        } else {
+            st = 0;
+            document.write("el subsidio de transporte es: " + st + "<br/>");
+        }
+
+        vhed = (sueldo / 240) * 1.25;
+        document.write("el valor de la hora extra diurna es: " + vhed + "<br/>");
+
+        vhen = (sueldo / 240) * 1.75;
+        document.write("el valor de la hora extra nocturna es: " + vhen + "<br/>");
+
+        vhef = (sueldo / 240) * 2;
+        document.write("el valor de la hora extra festiva es: " + vhef + "<br/>");
+
+        devengado = salario + st + vhed + vhen + vhef;
+        document.write("el total devengado es: " + devengado + "<br/>");
+
+        salud = (devengado - st) * 4 / 100;
+        document.write("el descuento de salud es: " + salud + "<br/>");
+
+        pension = (devengado - st) * 4 / 100;
+        document.write("el descuento de pensión es: " + pension + "<br/>");
+
+        deducidos = salud + pension;
+        document.write("los descuentos son: " + deducidos + "<br/>");
+
+        neto = devengado - deducidos;
+        document.write("el neto a pagar es: " + neto);
+    </script>
+</body>
+</html>
