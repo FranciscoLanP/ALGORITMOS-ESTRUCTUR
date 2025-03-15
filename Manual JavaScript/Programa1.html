@@ -1,0 +1,7 @@
+<script language="JavaScript1.2">
+   document.write("SEMANA 3 - JAVASCRIPT");
+</script>
+
+<script language="JavaScript1.2">
+   document.write("MI PRIMER SCRIPT");
+</script>
