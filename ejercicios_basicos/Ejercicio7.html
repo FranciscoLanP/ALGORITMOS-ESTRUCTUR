@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Suma de Array</title>
+    <script>
+        function sumaArray() {
+            let arr = prompt("Ingresa numeros separados por comas:").split(',').map(Number);
+            let resultado = arr.reduce((total, num) => total + num, 0);
+            alert("Suma total: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h2>Suma de Elementos de un Array</h2>
+    <button onclick="sumaArray()">Sumar</button>
+</body>
+</html>
+

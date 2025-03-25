@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Contador de Vocales</title>
+    <script>
+        function contarVocales() {
+            let texto = prompt("Ingresa un texto:");
+            let coincidencias = texto.match(/[aeiouAEIOU]/g);
+            let resultado = coincidencias ? coincidencias.length : 0;
+            alert("Cantidad de vocales: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h2>Contador de Vocales</h2>
+    <button onclick="contarVocales()">Contar</button>
+</body>
+</html>
+

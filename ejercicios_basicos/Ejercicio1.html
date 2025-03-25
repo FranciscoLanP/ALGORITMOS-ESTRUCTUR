@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculadora</title>
+    <script>
+        function calculadora() {
+            let num1 = parseFloat(prompt("Ingresa el primer numero:"));
+            let num2 = parseFloat(prompt("Ingresa el segundo numero:"));
+            let operador = prompt("Ingresa el operador (+, -, *, /):");
+            let resultado;
+            switch (operador) {
+                case '+': resultado = num1 + num2; break;
+                case '-': resultado = num1 - num2; break;
+                case '*': resultado = num1 * num2; break;
+                case '/': resultado = num2 !== 0 ? num1 / num2 : 'Error: División por cero'; break;
+                default: resultado = "Operador no válido";
+            }
+            alert("Resultado: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h2>Calculadora</h2>
+    <button onclick="calculadora()">Calcular</button>
+</body>
+</html>

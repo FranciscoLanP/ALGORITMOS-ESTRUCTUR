@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>Factorial</title>
+    <script>
+        function factorial() {
+            let n = parseInt(prompt("Ingresa un numero:"));
+            let resultado = n === 0 ? 1 : Array.from({ length: n }, (_, i) => i + 1).reduce((a, b) => a * b, 1);
+            alert("Factorial: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h2>Factorial de un Numero</h2>
+    <button onclick="factorial()">Calcular</button>
+</body>
+</html>

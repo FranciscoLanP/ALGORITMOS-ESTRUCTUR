@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Ordenar Array</title>
+    <script>
+        function ordenarArray() {
+            let arr = prompt("Ingresa numeros separados por comas:").split(',').map(Number);
+            let orden = prompt("Ingresa 'asc' para ascendente o 'desc' para descendente:");
+            let resultado = orden === 'asc' ? arr.sort((a, b) => a - b) : arr.sort((a, b) => b - a);
+            alert("Array ordenado: " + resultado.join(", "));
+        }
+    </script>
+</head>
+<body>
+    <h2>Ordenar Array</h2>
+    <button onclick="ordenarArray()">Ordenar</button>
+</body>
+</html>
