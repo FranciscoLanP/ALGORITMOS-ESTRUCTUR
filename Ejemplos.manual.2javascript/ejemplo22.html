@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Chequear</title>
+    
+    <script language="javascript">
+        function chequeo() {
+            var x = document.form1.cod.value;
+            var a = "valor ";
+            if (x.length < 6 || x.length > 12) {
+                a += "incorrecto.";
+            } else {
+                a += "correcto.";
+            }
+            alert(a);
+        }
+    </script>
+</head>
+<body bgcolor="#FEFFDD" text="#000000">
+    <form name="form1" method="post" action="">
+        <table width="80%" border="0">
+            <tr>
+                <td align="center">Escriba su Código 
+                    <input type="text" name="cod" onChange="chequeo()">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" name="gubmit" value="Chequear" onClick="chequeo()">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

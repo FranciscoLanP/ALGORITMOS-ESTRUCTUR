@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+    <title>Titulada</title>
+</head>
+<body bgcolor="#FFFFDD" text="#000000">
+    <form name="form1" method="post" action="">
+        <input type="text" name="cuadro" size="30">
+        <br>
+        <input type="submit" name="Boton" value="Enviar">
+    </form>
+
+    <script language="javascript">
+        var x = document.form1.Boton.value;
+        document.form1.cuadro.value = new Date();
+        document.write("El Valor de la Variable x es: " + x);
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//BN" "http://www.w3.org/TR/html4/strict.dtd">
+<head>
+    <title>EVENTOS</title>
+    
+    <script language="javascript">
+        function notocar() {
+            document.formulario.caja.value = "Le dije que no me tocara!!!";
+        }
+
+        function borrar() {
+            document.formulario.caja.value = "*";
+        }
+    </script>
+</head>
+<body bgcolor="#REEFDD" text="#000000">
+    <form name="formulario" method="post" action="">
+        <table width="80%" border="0">
+            <tr>
+                <td align="center">Respuesta 
+                    <input type="text" name="caja" value="" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" name="Enviar" value="No me toque !!!" 
+                           onMouseOut="borrar()" onMouseOver="notocar()">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

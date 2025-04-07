@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Mayor</title>
+</head>
+<body>
+    <script>
+        var Num1 = parseFloat(prompt("Introduzca el Primer Numero", 0));
+        var Num2 = parseFloat(prompt("Introduzca el Segundo Numero", 0));
+        var Num3 = parseFloat(prompt("Introduzca el Tercer Numero", 0));
+        var m;
+
+        if (Num1 > Num2 && Num1 > Num3) {
+            m = "Num1 es el numero mayor";
+        } else if (Num2 > Num1 && Num2 > Num3) {
+            m = "Num2 es el numero mayor";
+        } else {
+            m = "Num3 es el numero mayor";
+        }
+
+        document.write(m);
+    </script>
+</body>
+</html>

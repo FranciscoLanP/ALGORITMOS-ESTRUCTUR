@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Chequear</title>
+    
+    <script language="javascript">
+        function chequear() {
+            var x = document.form1.ide.value;
+            if (isNaN(x)) {
+                alert("Usted no escribió un número");
+            } else {
+                alert("Valor Correcto");
+            }
+        }
+    </script>
+</head>
+<body bgcolor="#FFFEDD" text="#000000">
+    <form name="form1" method="post" action="">
+        <table width="80%" border="0">
+            <tr>
+                <td align="center">Número de Identificación 
+                    <input type="text" name="ide" onChange="chequear()">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" name="Submit" value="Enviar" onClick="chequear()">
+                    <input type="reset" name="reset" value="Limpiar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
