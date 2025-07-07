@@ -1,0 +1,28 @@
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.exe
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.deps.json
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.runtimeconfig.json
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.dll
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.pdb
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.AssemblyInfoInputs.cache
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.AssemblyInfo.cs
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.csproj.CoreCompileInputs.cache
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.dll
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\refint\ejemplo4.dll
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.pdb
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.genruntimeconfig.cache
+C:\Users\Ronal\OneDrive\Escritorio\ejemplo4\ejemplo4\obj\Debug\net8.0\ref\ejemplo4.dll
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.exe
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.deps.json
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.runtimeconfig.json
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.dll
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\bin\Debug\net8.0\ejemplo4.pdb
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.dll
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\refint\ejemplo4.dll
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.pdb
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ejemplo4.genruntimeconfig.cache
+C:\Users\franc\OneDrive\Desktop\Nueva carpeta\Ejemplos_estructura_datos\ejemplo4\ejemplo4\obj\Debug\net8.0\ref\ejemplo4.dll
