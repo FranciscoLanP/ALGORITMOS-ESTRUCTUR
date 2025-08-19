@@ -1,0 +1,12 @@
+@model Api.Models.Employee
+@{
+    Layout = "_Layout";
+}
+<h2>Eliminar @Model.Name</h2>
+
+<p>¿Estás seguro que deseas eliminar a @Model.Name (ID @Model.Id)?</p>
+
+<form asp-action="Delete" method="post">
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+</form>

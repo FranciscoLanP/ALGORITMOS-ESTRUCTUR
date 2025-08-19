@@ -1,0 +1,13 @@
+@model Api.Models.Employee
+@{
+    Layout = "_Layout";
+}
+<h2>Detalles de @Model.Name</h2>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>ID:</strong> @Model.Id</li>
+    <li class="list-group-item"><strong>Nombre:</strong> @Model.Name</li>
+    <li class="list-group-item"><strong>Salario:</strong> @Model.Salary.ToString("C")</li>
+</ul>
+
+<a class="btn btn-primary mt-3" asp-action="Index">Volver</a>

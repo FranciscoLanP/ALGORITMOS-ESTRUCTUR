@@ -1,0 +1,53 @@
+@model List<Api.Models.Employee>
+@{
+    Layout = "_Layout";
+    var error = TempData["Error"] as string;
+}
+<h2>Empleados</h2>
+
+@if (!string.IsNullOrEmpty(error))
+{
+    <div class="alert alert-warning">@error</div>
+}
+
+<div class="d-flex mb-3">
+    <a asp-action="Create" class="btn btn-primary me-auto">Registrar Nuevo</a>
+
+    <form asp-action="Search" method="get" class="d-flex">
+        <input
+            type="number"
+            name="id"
+            class="form-control me-2"
+            placeholder="Buscar por ID"
+            min="1"
+            required />
+        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+    </form>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Salario</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.Id</td>
+            <td>@e.Name</td>
+            <td>@e.Salary.ToString("C")</td>
+            <td>
+                <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@e.Id">Ver</a>
+                <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@e.Id">Eliminar</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<h4>Total Salarios: @(((decimal)ViewBag.Total).ToString("C"))</h4>
